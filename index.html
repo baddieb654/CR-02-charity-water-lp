@@ -7,41 +7,49 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Navigation: Simple, evenly spaced tabs -->
+    <nav style="width: 100%; background: rgba(255,255,255,0.8); padding: 8px 0; text-align: center; font-size: 0.95em;">
+    <a href="#about" style="margin: 0 18px; color: #936233; text-decoration: none; font-weight: 500;">About Us</a>
+    <a href="#learn" style="margin: 0 18px; color: #936233; text-decoration: none; font-weight: 500;">Learn More</a>
+    <a href="#signin" style="margin: 0 18px; color: #936233; text-decoration: none; font-weight: 500;">Sign In</a>
+    <a href="#signup" style="margin: 0 18px; color: #936233; text-decoration: none; font-weight: 500;">Sign Up</a>
+    </nav>
     <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
+    <section class="hero" style="background-image: url('img/hero2.jpg')">
+        <!-- Logo image in the top left corner, centered vertically -->
+        <div style="position: relative; height: 220px; width: 100%;">
+            <img src="img/cw_logo.png" alt="charity: water logo" style="position: absolute; left: 40px; top: -15px; height: 60px;">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100%;">
+                <h1 style="margin-top: 10px; margin-bottom: 10px;">Become a part of charity: water's cause !</h1>
+            </div>
+        </div>
     </section>
 
     <!-- Story Section: This tells the story of the nonprofit -->
     <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
+    <!-- Headline now above the story text, colored yellow -->
         <div class="impact-content">
             <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
+            <img src="https://d35lvrk9fb4ftj.cloudfront.net/eyJidWNrZXQiOiJkcm9wbWFyayIsImtleSI6IjUyMDQzLzliODM3NmFlMjQwZjY3OTUwNWFjZWM4NzJhM2VjZjAxNWNjNDQwNmEzZGQ2ODcyMzk1ZjUxNTI1ZDEzNjI5NDcvcHJldmlldy80NzUwX0V0aGlvcGlhXzIwMTlfQ0ctLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" alt="Amina smiling with clean water" class="impact-image">
+            <!-- Headline now directly above the story text, colored yellow and centered -->
+            <div style="text-align: center;">
+                <h2 style="color: #ffc90a; margin: 20px 0 10px 0; font-size: 1.3em; font-weight: bold;">Every Drop Counts. Every Dollar Changes Lives.</h2>
+            </div>
             <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
+            <p style="color: #ffc90a;">
+                Together, we’ve already provided 2.7 trillion gallons of life-saving water, keeping children in school, empowering women, and building strong communities. With your donation, you’re giving health, education, and hope, not just water.
             </p>
         </div>
     </section>
 
+    <!-- Real-World Impact Story Section -->
+        <section class="impact-story" style="background-color: #136382;">
+        </section>
+
     <!-- Call-to-Action Section: This encourages visitors to take action -->
     <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <h2>Get Involved Today</h2>
+    <a href="#" class="donate-button">Donate Now</a>
     </section>
 </body>
 </html>
